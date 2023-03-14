@@ -1,6 +1,8 @@
 # Eleventy Rainbow
 
-This repo contains minimal Eleventy setup.
+This repo contains a minimal Eleventy setup to generate a simple site with an `index.html` and a `rainbow.svg`.
+
+You can run
 
 - `npm run dev` to run the Eleventy dev server
 - `npm run build` to run a build
