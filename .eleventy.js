@@ -1,4 +1,8 @@
+var pugPlugin = require('./config/template-languages/pug');
+
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addPlugin(pugPlugin);
+
   return {
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',

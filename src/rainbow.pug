@@ -1,6 +1,5 @@
 ---
 title: A beautifully stroked rainbow
-permalink: "/rainbow.svg"
 colors: ['red', 'orange', 'yellow', 'limegreen', 'blue', 'rebeccapurple', 'deeppink']
 backgroundColor: darkblue
 ---
@@ -21,7 +20,5 @@ svg(viewBox="0 0 160 160", xmlns="http://www.w3.org/2000/svg")
     - innerWidth = outerWidth - 2 * stripeThickness;
     - outerHeight = 76 - val * (stripeThickness + stripeMargin);
     - innerHeight = outerHeight - stripeThickness;
-    path(d=`M${startPosition},100 c0,${-outerHeight} ${outerWidth},${-outerHeight} ${outerWidth},0 
-            l-${stripeThickness},0 
-            c0,${-innerHeight} ${-innerWidth},${-innerHeight} ${-innerWidth},0Z`, stroke=colors[val], fill="none" filter="url(#glow)")
+    path(d=`M${startPosition},100 c0,${-outerHeight} ${outerWidth},${-outerHeight} ${outerWidth},0  l-${stripeThickness},0 c0,${-innerHeight} ${-innerWidth},${-innerHeight} ${-innerWidth},0Z`, stroke=colors[val], fill="none" filter="url(#glow)")
   
