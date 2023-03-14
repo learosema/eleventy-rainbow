@@ -1,0 +1,15 @@
+{
+  "name": "eleventy-rainbow",
+  "version": "1.0.0",
+  "description": "A rainbow, made with eleventy",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Lea Rosema <lea@lea.codes>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
