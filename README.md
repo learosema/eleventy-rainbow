@@ -18,3 +18,4 @@ There seems to be a bug in the built-in pug renderer when you specify a permalin
 
 Apparently, the permalink is interpreted Emmet-like (or pug-like), so the filename `rainbow.svg` gets transformed into a `<rainbow class="svg">`.
 
+The workaround for now is to additionally set `dynamicPermalink: false`.
